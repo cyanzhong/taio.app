@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="384px" viewBox="0 0 384 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>椭圆形备份</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.7672281%" y1="0%" x2="78.3518122%" y2="89.2288399%" id="linearGradient-1">
+            <stop stop-color="#00B5B5" offset="0%"></stop>
+            <stop stop-color="#007259" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="桌面端-HD" transform="translate(-465.000000, -112.000000)" fill="url(#linearGradient-1)">
+            <circle id="椭圆形备份" cx="657" cy="304" r="192"></circle>
+        </g>
+    </g>
+</svg>
