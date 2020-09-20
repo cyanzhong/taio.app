@@ -8,7 +8,7 @@
 
 html {
   background-color: #FFFFFF;
-  color: #333333;
+  color: #444444;
   font-size: 16px;
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -40,22 +40,19 @@ h2 {
   font-size: 2.25rem;
   font-weight: 700;
   color: #000000;
+  letter-spacing: -1px;
 }
 
 h3 {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #000000;
 }
 
 h4 {
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #000000;
-}
-
-p {
-  font-weight: 300;
 }
 
 /* || Banner Styles */
@@ -72,7 +69,7 @@ header {
   max-width: 1080px;
   margin: 0 auto;
   height: 4rem;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -119,7 +116,7 @@ header {
 }
 
 .banner_left {
-  margin: 2rem 1rem 1rem 1rem;
+  margin: 2rem 1.5rem 1rem 1.5rem;
 }
 
 .banner_left p {
@@ -153,7 +150,7 @@ header {
 
 .banner_image {
   max-width: 60%;
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 1.5rem 1rem 1rem;
 }
 
 @media (min-width: 768px) {
@@ -169,7 +166,7 @@ header {
 
   .banner_left {
     margin: 10rem 1.5rem 12rem 1.5rem;
-    max-width: 56%;
+    max-width: 55%;
   }
 
   .banner h1 {
@@ -206,7 +203,7 @@ section {
 }
 
 .feature_content {
-  margin: 4rem 1rem 1rem 1rem;
+  margin: 4rem 1.5rem 1rem 1.5rem;
 }
 
 .feature_content h2 {
@@ -230,12 +227,12 @@ section {
   padding-left: 2.25rem;
   font-weight: 500;
   font-size: 1.125rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   background-image: url(../images/f1.svg);
   background-size: fit-content;
   background-repeat: no-repeat;
-  background-position: center left;
-  margin-bottom: 0.75rem;
+  background-position: top left;
+  margin-bottom: 1rem;
 }
 
 .feature_content .li2 {
@@ -293,7 +290,7 @@ section {
 
 @media (min-width: 1024px) {
   .feature_content {
-    max-width: 45%;
+    max-width: 46%;
   }
 
   .feature_img {
@@ -314,7 +311,7 @@ section {
 
 .more_box {
   max-width: 1080px;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -369,7 +366,7 @@ footer {
 
 .footer_img {
   max-width: 100%;
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 footer ul {
@@ -378,7 +375,7 @@ footer ul {
 
 footer li {
   color: rgba(255, 255, 255, 0.65);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   text-align: center;
 }
 
