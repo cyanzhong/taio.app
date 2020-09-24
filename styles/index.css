@@ -107,7 +107,7 @@ header {
 .banner_box {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 2rem 1.5rem;
+  padding: 2rem 1.5rem 3rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -117,7 +117,7 @@ header {
 }
 
 .banner_left {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .banner_left p {
@@ -150,7 +150,7 @@ header {
 }
 
 .banner_image {
-  max-width: 85%;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -163,11 +163,12 @@ header {
     align-items: center;
     justify-content: space-between;
     background-position: bottom -80px left 10%;
-    padding: 7rem 1.5rem 9rem 1.5rem;
+    padding: 4rem 1.5rem 6rem 1.5rem;
   }
 
   .banner_left {
     max-width: 50%;
+    margin-bottom: 0;
   }
 
   .banner h1 {
@@ -179,7 +180,7 @@ header {
   }
 
   .banner_image {
-    max-width: 42%;
+    max-width: 48%;
   }
 }
 
@@ -199,9 +200,9 @@ section {
 }
 
 .feature_img {
-  width: 80%;
+  max-width: 100%;
   object-fit: contain;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .feature_img3 {
