@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   color: #000000;
 }
@@ -107,7 +107,7 @@ header {
 .banner_box {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 3rem 1.5rem;
+  padding: 2rem 1.5rem 4rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -117,19 +117,19 @@ header {
 }
 
 .banner_left {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .banner_left p {
-  margin: 0.5rem 0 2rem 0;
-  font-size: 1.25rem;
+  margin: 0.5rem 0 1.5rem 0;
+  font-size: 1.125rem;
   color: rgba(0, 0, 0, 0.7);
 }
 
 .download_btn {
   display: block;
   width: 132px;
-  height: 44px;
+  height: 40px;
   background-image: url(../images/download.svg);
   background-repeat: no-repeat;
 }
@@ -172,11 +172,11 @@ header {
   }
 
   .banner h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .banner_left p {
-    margin: 0.5rem 0 3rem 0;
+    margin: 0.5rem 0 2.5rem 0;
   }
 
   .banner_image {
@@ -193,7 +193,7 @@ section {
 .feature_box {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 4rem 1.5rem 1rem 1.5rem;
+  padding: 3rem 1.5rem 1rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,11 +202,11 @@ section {
 .feature_img {
   max-width: 100%;
   object-fit: contain;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .feature_img3 {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .feature_content h2 {
@@ -216,7 +216,7 @@ section {
 }
 
 .feature_content p {
-  margin: 2rem 0 1.5rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   font-size: 1.125rem;
 }
 
@@ -279,7 +279,7 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 5rem 1.5rem 4rem 1.5rem;
+    padding: 4rem 1.5rem;
   }
 
   .feature_content {
@@ -302,7 +302,7 @@ section {
 
 @media (min-width: 1024px) {
   .feature_content {
-    max-width: 45%;
+    max-width: 47%;
   }
 
   .feature_img {
@@ -313,12 +313,12 @@ section {
 /* more features styles*/
 
 .more_features {
-  background-color: #fbfbfb;
+  background-color: #f9f9f9;
 }
 
 .more_features h2{
   text-align: center;
-  line-height: 10.5rem;
+  line-height: 9rem;
 }
 
 .more_box {
@@ -335,7 +335,7 @@ section {
 }
 
 .more_box h4 {
-  margin-top: 1rem;
+  margin:  0.75rem 0 0.25rem 0 ;
 }
 
 .more_box p {
@@ -343,22 +343,18 @@ section {
 }
 
 @media (min-width: 768px) {
-  .more_box {
-    padding: 0 1.5rem;
+  .more_box article {
+    max-width: 46%;
   }
 
-  .more_box article {
-    max-width: 45%;
+  .more_box {
+    padding-bottom: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .more_box article {
     max-width: 31%;
-  }
-
-  .more_box {
-    padding-bottom: 4rem;
   }
 }
 
@@ -407,7 +403,7 @@ footer a:hover {
   opacity: 0.8;
 }
 
-@media (min-width: 415px) {
+@media (min-width: 768px) {
   footer li {
     display: inline;
   }
