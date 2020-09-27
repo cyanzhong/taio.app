@@ -155,7 +155,7 @@ header {
 
 @media (min-width: 768px) {
   .banner {
-    background-position: top -180px left -180px;
+    background-position: top -180px left -160px;
   }
 
   .banner_box {
