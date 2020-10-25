@@ -1,6 +1,6 @@
 const menuBtn = document.querySelector('.menu_btn');
 const menuNav = document.querySelector('.nav_compact ul');
-const menuItems = document.querySelectorAll('.nav_compact li');
+const menuItems = document.querySelectorAll('.nav_compact li a');
 const bodyElement = document.querySelector('body');
 let isMenuOpened = false;
 
