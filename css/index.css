@@ -581,6 +581,10 @@ footer a:hover {
     color: rgba(255, 255, 255, 0.8)
   }
 
+  .nav_regular li {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
   .nav_regular a:hover {
     color: white;
   }
