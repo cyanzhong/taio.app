@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
-    <title>f1</title>
-    <desc>Created with Sketch.</desc>
-    <g id="f1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-8.000000, -8.000000)" fill="#000000" id="形状结合">
-            <path d="M29,26 L29,28 L11,28 L11,26 L29,26 Z M24.6781746,13 L28.9208153,17.2426407 L22.5568542,23.6066017 L18.0213203,23.8994949 L18.3142136,19.363961 L24.6781746,13 Z M24.6781747,15.8270133 L20.2615858,20.2436022 L20.1640051,21.7568107 L21.6750922,21.6585229 L26.0923883,17.2412268 L24.6781747,15.8270133 Z M16,19 L16,21 L11,21 L11,19 L16,19 Z M20,12 L20,14 L11,14 L11,12 L20,12 Z"></path>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:v="https://vecta.io/nano"><path d="M21 18v2H3v-2h18zM16.678 5l4.243 4.243-6.364 6.364-4.536.293.293-4.536L16.678 5zm0 2.827l-4.417 4.417-.098 1.513 1.51-.098 4.417-4.417-1.414-1.414zM8 11v2H3v-2h5zm4-7v2H3V4h9z" fill-rule="evenodd"/></svg>

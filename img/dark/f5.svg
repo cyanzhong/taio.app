@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
-    <title>f5_dark</title>
-    <desc>Created with Sketch.</desc>
-    <g id="f5_dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M2,4 L12.618034,4 L14.618,8 L22,8 L22,20 L2,20 L2,4 Z M20,10 L4,10 L4,18 L20,18 L20,10 Z M11.381,6 L4,6 L4,8 L12.381,8 L11.381,6 Z" id="形状结合" fill="#FFFFFF"></path>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:v="https://vecta.io/nano"><path d="M2 4h10.618l2 4H22v12H2V4zm18 6H4v8h16v-8zm-8.62-4H4v2h8.38l-1-2z" fill="#fff" fill-rule="evenodd"/></svg>

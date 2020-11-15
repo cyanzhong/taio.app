@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="161px" height="161px" viewBox="0 0 161 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
-    <title>椭圆形备份 2</title>
-    <desc>Created with Sketch.</desc>
-    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
-        <g id="桌面端-HD" transform="translate(-259.000000, -518.000000)" fill="#E938FF">
-            <g id="椭圆形备份-2" transform="translate(0.000000, 64.000000)">
-                <circle cx="339.5" cy="534.5" r="80.5"></circle>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="161" height="161" xmlns:v="https://vecta.io/nano"><circle cx="80.5" cy="80.5" r="80.5" fill="#e938ff" fill-rule="evenodd" opacity=".2"/></svg>
