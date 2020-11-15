@@ -247,17 +247,19 @@ header {
 
 .download_btn {
   display: block;
-  width: 132px;
-  height: 40px;
+  width: 144px;
+  height: 48px;
   background-image: url(../img/download.svg);
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .download_btn_cn {
   display: block;
-  width: 109px;
-  height: 40px;
+  width: 131px;
+  height: 48px;
   background-image: url(../img/download-cn.svg);
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
