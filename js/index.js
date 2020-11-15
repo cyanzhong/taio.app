@@ -1,3 +1,11 @@
+const language = navigator.language || navigator.userLanguage;
+const translations = document.querySelectorAll('.translations');
+translations.forEach(item => {
+  if (language.indexOf('zh') !== -1) {
+    item.textContent = 'EN / 中文';
+  }
+});
+
 const menuBtn = document.querySelector('.menu_btn');
 const menuNav = document.querySelector('.nav_compact ul');
 const menuItems = document.querySelectorAll('.nav_compact li a');
