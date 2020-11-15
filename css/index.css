@@ -253,6 +253,14 @@ header {
   background-repeat: no-repeat;
 }
 
+.download_btn_cn {
+  display: block;
+  width: 109px;
+  height: 40px;
+  background-image: url(../img/download-cn.svg);
+  background-repeat: no-repeat;
+}
+
 .testflight {
   padding-top: 0.5rem;
   font-size: 1rem;
@@ -599,6 +607,10 @@ footer a:hover {
 
   .download_btn {
     background-image: url(../img/dark/download.svg);
+  }
+
+  .download_btn_cn {
+    background-image: url(../img/dark/download-cn.svg);
   }
 
   .testflight {
