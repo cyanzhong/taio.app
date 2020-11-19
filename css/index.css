@@ -263,21 +263,6 @@ header {
   background-repeat: no-repeat;
 }
 
-.testflight {
-  padding-top: 0.5rem;
-  font-size: 1rem;
-  color: rgba(0, 0, 0, 0.8)
-}
-
-.testflight a {
-  color: #000000;
-  border-bottom: 1px solid;
-}
-
-.testflight a:hover {
-  opacity: 0.8;
-}
-
 .banner_image {
   max-width: 100%;
 }
@@ -614,15 +599,7 @@ footer a:hover {
   .download_btn_cn {
     background-image: url(../img/dark/download-cn.svg);
   }
-
-  .testflight {
-    color: rgba(255, 255, 255, 0.8);
-  }
-
-  .testflight a {
-    color: white;
-  }
-
+  
   .feature_content h2 {
     border-bottom: 0.875rem solid #995900;
   }
