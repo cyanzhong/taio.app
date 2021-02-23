@@ -499,7 +499,7 @@ section {
 
 .pricing h2 {
   text-align: center;
-  margin: 3rem 0 3rem 0;
+  line-height: 8.25rem;
 }
 
 .pricing_feature {
