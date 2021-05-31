@@ -571,6 +571,59 @@ section {
   margin: 1rem 0 2rem 0;
 }
 
+.table_box {
+  width: 100%;
+  overflow-x: scroll;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+}
+
+.pricing_plan table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+}
+
+.pricing_plan thead th {
+  border-top: none;
+}
+
+.pricing_plan tr > :first-child {
+  border-left: none;
+}
+
+.pricing_plan tr > :last-child {
+  border-right: none;
+}
+
+.pricing_plan tfoot td {
+  border-bottom: none;
+  padding: 0.375rem 0;
+}
+
+.table_box::-webkit-scrollbar {
+  display: none;
+}
+
+.pricing_plan td, 
+.pricing_plan th {
+  font-size: 0.875rem;
+  padding: 0.625rem 0.5rem;
+  border: 1px solid #e6e6e6;
+}
+
+.pricing_plan thead {
+  background-color: #eeeeee;
+}
+
+.pricing_plan ul {
+  line-height: 2;
+  list-style-type: disc;
+  margin: 2rem 1.5rem 3rem 1.5rem;
+}
+
 @media (min-width:768px) {
   .pricing_feature {
     display: grid;
@@ -716,5 +769,19 @@ footer a:hover {
 
   .pricing_plan {
     color: #FFFFFF;
+  }
+
+  .table_box, 
+  .pricing_plan td, 
+  .pricing_plan th {
+    border-color: #333333;
+  }
+
+  .pricing_plan table {
+    background-color: #1C1C1E;
+  }
+
+  .pricing_plan thead {
+    background-color: #2C2C2E;
   }
 }
