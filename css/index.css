@@ -234,7 +234,7 @@ header {
 
 .banner_box {
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem 1.5rem;
+  padding: 2rem 1.5rem 3rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,17 +243,14 @@ header {
   background-position: bottom -100px left -80px;
 }
 
-.banner_left {
-  margin-bottom: 1.5rem;
-}
-
 .banner_left p {
-  margin: 0.5rem 0 1.5rem 0;
+  margin-top: 0.5rem;
   font-size: 1.125rem;
   color: rgba(0, 0, 0, 0.7);
 }
 
 .download_btn {
+  margin: 1rem 0;
   display: block;
   width: 144px;
   height: 48px;
@@ -263,6 +260,7 @@ header {
 }
 
 .download_btn_cn {
+  margin: 1rem 0;
   display: block;
   width: 131px;
   height: 48px;
@@ -308,10 +306,6 @@ header {
 
   .banner h1 {
     font-size: 3.5rem;
-  }
-
-  .banner_left p {
-    margin: 0.5rem 0 2.5rem 0;
   }
 
   .banner_image {
@@ -598,11 +592,6 @@ section {
   border-right: none;
 }
 
-.pricing_plan td {
-  border-bottom: none;
-  padding: 0.375rem 0;
-}
-
 .table_box::-webkit-scrollbar {
   display: none;
 }
@@ -612,6 +601,7 @@ section {
   font-size: 0.875rem;
   padding: 0.625rem 0.5rem;
   border: 1px solid #e6e6e6;
+  border-bottom: none;
 }
 
 .pricing_plan thead {
@@ -619,9 +609,12 @@ section {
 }
 
 .pricing_plan ul {
-  line-height: 2;
   list-style-type: disc;
   margin: 2rem 1.5rem 3rem 1.5rem;
+}
+
+.pricing_plan ul li {
+  margin-bottom: 0.75rem;
 }
 
 @media (min-width:768px) {
