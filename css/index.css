@@ -250,8 +250,8 @@ header {
 }
 
 .download_btn {
-  margin: 1rem 0;
-  display: block;
+  margin: 1rem 0.5rem 1rem 0;
+  display: inline-block;
   width: 144px;
   height: 48px;
   background-image: url(../img/download.svg);
@@ -260,11 +260,31 @@ header {
 }
 
 .download_btn_cn {
-  margin: 1rem 0;
-  display: block;
+  margin: 1rem 0.5rem 1rem 0;
+  display: inline-block;
   width: 131px;
   height: 48px;
   background-image: url(../img/download-cn.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.download_btn_mac {
+  margin: 1rem 0;
+  display: none;
+  width: 188px;
+  height: 48px;
+  background-image: url(../img/download-mac.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.download_btn_mac_cn {
+  margin: 1rem 0;
+  display: none;
+  width: 169px;
+  height: 48px;
+  background-image: url(../img/download-mac-cn.svg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -310,6 +330,10 @@ header {
 
   .banner_image {
     max-width: 48%;
+  }
+
+  .download_btn_mac, .download_btn_mac_cn {
+    display: inline-block;
   }
 }
 
@@ -736,8 +760,16 @@ footer a:hover {
     background-image: url(../img/dark/download.svg);
   }
 
+  .download_btn_mac {
+    background-image: url(../img/dark/download-mac.svg);
+  }
+
   .download_btn_cn {
     background-image: url(../img/dark/download-cn.svg);
+  }
+
+  .download_btn_mac_cn {
+    background-image: url(../img/dark/download-mac-cn.svg);
   }
   
   .feature_content h2 {
